@@ -2,8 +2,7 @@ const app = new Vue({
     el:'#app',
     data:{
         url:'https://jsonplaceholder.typicode.com/users',
-        api:null,
-        msg:'Hola Vue'
+        api:null
     },
     mounted(){
         fetch(this.url)
